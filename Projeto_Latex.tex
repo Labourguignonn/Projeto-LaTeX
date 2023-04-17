@@ -1,7 +1,8 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
-\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
 \usepackage{indentfirst}
+\usepackage{natbib}
 \graphicspath{{images/}}
 
 \title{IF689 - INFORMÁTICA TEÓRICA}
@@ -19,24 +20,24 @@ A informática teórica é uma disciplina obrigatória fornecida pelo \textbf{Ci
 \section{Relevância}
 A informática teórica usa conceitos principalmente da teoria da computação, área da ciência que busca encontrar quais problemas podem ser resolvidos e computados com tecnologia de alguma forma. 
 
-Durante a primeira metade do Século XX, matemáticos como Kurt Godel, Alan Turing, e Alonzo Church descobriram que certos problemas básicos não podem ser resolvidos por computadores. Um exemplo desse fenômeno é o problema de se determinar se um enunciado matemático é verdadeiro ou falso. Apesar de parecer natural para resolução por computador porque ela reside estritamente dentro do domínio da matemática, nenhum algoritmo de computador pode realizar essa tarefa. Entre as consequências desse resultado profundo estava o desenvolvimento de ideias sobre os modelos teóricos de computadores que em algum momento ajudariam a levar à construção de computadores reais.
+Durante a primeira metade do Século XX, matemáticos como Kurt Godel, Alan Turing, e Alonzo Church descobriram que certos problemas básicos não podem ser resolvidos por computadores. Um exemplo desse fenômeno é o problema de se determinar se um enunciado matemático é verdadeiro ou falso. Apesar de parecer natural para resolução por computador porque ela reside estritamente dentro do domínio da matemática, nenhum algoritmo de computador pode realizar essa tarefa. Entre as consequências desse resultado profundo estava o desenvolvimento de ideias sobre os modelos teóricos de computadores que em algum momento ajudariam a levar à construção de computadores reais.\citep{Livro}
+
+
+
 
 \begin{figure}[h]
     \centering
     \includegraphics{images/godel-turing-church-removebg-preview.png}
     \caption {\textbf{Da esquerda para a direita: Kurt Godel, Alan Turing e Alonzo Church, os fundadores da Computação}}
     \label{fig:mesh1}
+    \citep{Imagem}
 \end{figure}
 
 Assim, com o passar dos anos, a pesquisa de tais problemas acabou se envolvendo cada vez mais com a área da tecnologia, a fim de encontrar quais são as limitações e capacidades fundamentais da computação, sendo esse assunto a principal base de estudo da aula de informática teórica.
 
 \section{Relação com outras disciplinas}
-Na UFPE, tal disciplina é lecionada pelo professor Paulo Fonseca. Para fazer a disciplina, exig-se que tenha passado como pré-requisitos nas disciplina de Algoritmos e Estrutura de Dados e Introdução a Computação devido aos conhecimentos necessário à cadeira que estão presentes nesses pré-requisitos. 
+Na UFPE, tal disciplina é lecionada pelo professor Paulo Fonseca. Para fazer a disciplina, exig-se que tenha passado como pré-requisitos nas disciplina de Algoritmos e Estrutura de Dados e Introdução a Computação devido aos conhecimentos necessário à cadeira que estão presentes nesses pré-requisitos.\citep{Disciplina}
 
-\section{Referências}
-\begin{itemize}
-  \item Michael Sipser. Introdução à Teoria da Computação, Cengage Learning, 2007.
-  \item https://www.cin.ufpe.br/~paguso/courses/if689ec/atual/
-  \item http://www.turingfinance.com/promise-of-computing/
-
+\bibliography{referencias}
+\bibliographystyle{abbrvnat}
 \end{document}
